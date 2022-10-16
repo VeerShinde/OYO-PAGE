@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 200vh;
+    background-color: rgb(82, 34, 138);
+    z-index: 1;
+
+}
+
+.logo img{
+    width: 40px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 15%;
+}
+
+.logo span h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: -35px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+}
+
+.hidemenu span{
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 28px;
+}
+
+.hidemenu span p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 24px;
+    right: 25px;
+}
+
+.dashboard span{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 28px;  
+}
+
+.dashboard span p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 24px;
+    right: 25px; 
+}
+
+/* .projects{
+    width: 250px;
+} */
+
+.projects span{
+    color: #785ba4;
+    position: relative;
+    top: 115px;
+    left: 28px;  
+}
+
+.projects span p{
+    color: #b5627f;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 23px;
+    right: 29px; 
+    font-weight: 800;
+}
+
+.earnings span{
+    color: white;
+    position: relative;
+    top: 130px;
+    left: 28px;  
+}
+
+.earnings span p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 24px;
+    right: 28px; 
+}
+
+.profile span{
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 28px;  
+}
+
+.profile span p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 27px;
+    right: 35px; 
+}
+
+.support p{
+    margin-top: 170px;
+    margin-left: 32px;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.ticket span{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 30px; 
+}
+
+.ticket p{
+    color: white;
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+.ticket .ticket-count{
+    width: 13px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+

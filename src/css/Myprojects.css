@@ -1,0 +1,128 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+
+}
+
+.container-main{
+    background-color: #f2f5fe;
+    max-width: 1165px;
+    border: 1px solid black;
+    position: relative;
+    left: 200px;
+    margin-left: -200px;
+    border-top-left-radius: 15px;
+    z-index: 100;
+}
+
+.profile{
+    display: flex;
+    justify-content:flex-end;
+    position: relative;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.profile h3{
+    display: inline-block   ;
+}
+
+.profile img{
+    border-radius: 50%;
+    margin-top: -17px;
+    margin-left: 10px;
+}
+
+.myprojects{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.explore{
+    margin-left: 60px;
+}
+
+.search{
+    position: relative;
+    left: 635px;
+    border:none;
+    width: 200px;
+    height: 35px;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid grey;
+    width: 330px;
+    height: 180px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin: 10px;
+}
+
+.card img{
+    display: inline-block;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card span{
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    bottom: 15px;   
+}
+
+.card button{
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    margin-left: 110px;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+    background: none;
+    border-radius: 4px;
+    border: 1px solid #b750e6;
+    color: #b750e6;
+    border-bottom: 1.8px solid #b750e6;
+}
+
+.card h3{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    margin-left: 25px;
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+}
+
+.card p{
+    background-color: white;
+    width: 200px;
+    margin-left: 25px;
+    position: relative;
+    top: 20px;
+    font-weight: 300;
+}
+
+.card .price{
+    background-color: white;
+    margin-left: 250px;
+    position: relative;
+    bottom: 30px;
+    font-size: 22px;
+    color: #bf5079;
+}
+
+.all-items{
+    display: flex;
+    flex-wrap: wrap;
+}
